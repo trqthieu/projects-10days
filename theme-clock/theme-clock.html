@@ -15,16 +15,20 @@
     <div class="site__wrapper">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <p class="btn btn-dark btn__change-theme">Dark Mode</p>
+                <div class="col-md-8 col-lg-6 text-center col-clock">
+                    <label for="darkMode">
+                        <p class="btn__change-theme">Dark Mode</p>
+                    </label>
+                    <input type="checkbox" id="darkMode" hidden>
                     <div class="clock">
                         <div class="clock__item clock__hour"></div>
                         <div class="clock__item clock__minute"></div>
                         <div class="clock__item clock__second"></div>
                     </div>
                     <div class="time">
-                        <span class="time__hour">5:06 PM</span>
-                        <span>SATURDAY,APR <b>30</b></span>
+                        <p class="time__hour">time</p>
+                        <p class="time__date"><span class="time__date__text">dow</span> <span
+                                class="time__date__dom">dom</span></p>
                     </div>
                 </div>
             </div>
