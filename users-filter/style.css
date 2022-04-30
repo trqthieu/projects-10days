@@ -1,0 +1,19 @@
+.site__wrapper {
+  padding: 20px 0;
+}
+.users-filter__header {
+  border-radius: 10px;
+}
+input {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.user__address {
+  font-size: 18px;
+}
+.users-filter__list {
+  max-height: 600px;
+  overflow-y: scroll;
+}

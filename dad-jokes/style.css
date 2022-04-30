@@ -1,0 +1,10 @@
+body {
+  background-color: #686de0;
+}
+.wrapper {
+  height: 100vh;
+  align-items: center;
+}
+.btn {
+  background-color: #9f68e0;
+}

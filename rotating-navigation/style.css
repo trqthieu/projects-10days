@@ -1,0 +1,64 @@
+.site__wrapper {
+  transition: all 0.5s;
+  padding: 50px 0;
+  background-color: #fff;
+  height: 100%;
+  transform-origin: top left;
+}
+body {
+  background-color: #333;
+  overflow-x: hidden;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a,
+a:hover {
+  display: block;
+  padding: 5px;
+  margin: 10px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+}
+img {
+  width: 100%;
+}
+.my__icon {
+  transition: all 0.5s;
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  background-color: #ff7979;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+}
+.open-icon__wrap {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+.close-icon__wrap {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+.my__navbar {
+  transition: all 0.5s;
+  position: fixed;
+  right: 100%;
+  bottom: 0;
+  width: 150px;
+}

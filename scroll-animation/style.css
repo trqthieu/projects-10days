@@ -1,0 +1,15 @@
+body {
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.content {
+  padding: 100px 200px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
