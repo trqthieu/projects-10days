@@ -1,0 +1,20 @@
+body {
+  height: 100vh;
+  background-color: steelblue;
+  display: flex;
+}
+.container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.square {
+  width: 150px;
+  display: inline-block;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
