@@ -1,0 +1,29 @@
+.site__wrapper {
+  padding: 50px 0;
+}
+.container {
+  padding: 0 50px;
+}
+#myCanvas {
+  border: 1px solid #000;
+}
+.tools {
+  user-select: none;
+  width: 1000px;
+  background-color: slateblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+span {
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  cursor: default;
+}

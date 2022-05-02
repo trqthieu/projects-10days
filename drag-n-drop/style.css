@@ -2,6 +2,7 @@ body {
   height: 100vh;
   background-color: steelblue;
   display: flex;
+  justify-content: center;
 }
 .container {
   align-self: center;

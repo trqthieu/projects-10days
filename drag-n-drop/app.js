@@ -56,7 +56,6 @@ document.addEventListener(
       dragged.parentNode.removeChild(dragged);
       event.target.appendChild(dragged);
       event.target.style.border = "2px solid #fff";
-      event.target.style.opacity = 1;
     }
   },
   false
