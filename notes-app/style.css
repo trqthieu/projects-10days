@@ -1,0 +1,27 @@
+body {
+  background-color: #7bdaf3;
+}
+.bg-input {
+  background-color: rgb(141, 223, 158);
+}
+.note__item {
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px #333;
+}
+.site__wrapper {
+  padding: 100px 0;
+}
+textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.btn__add {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
