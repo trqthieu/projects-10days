@@ -1,0 +1,46 @@
+.site__wrapper {
+  padding: 100px 0;
+}
+.box__item {
+  display: flex;
+  background-color: #476ce4;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.quote {
+  font-size: 40px;
+  display: block;
+  color: #fff;
+  opacity: 0.5;
+}
+.box__content {
+  padding: 0 10px;
+}
+.box__content__progress {
+  height: 4px;
+  background-color: #fff;
+  animation: pg 10s ease-in-out infinite;
+}
+.box__content__text {
+  margin-top: 10px;
+  text-align: justify;
+}
+.box__content__author {
+  display: flex;
+  justify-content: center;
+}
+.author__img img {
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+@keyframes pg {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
