@@ -1,1 +1,1 @@
-# projects-10days
+# pratice Javascript
